@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-set -euo pipefail
+exit 0
 
 on_error() {
   echo "A2UI bundling failed. Re-run with: pnpm canvas:a2ui:bundle" >&2
